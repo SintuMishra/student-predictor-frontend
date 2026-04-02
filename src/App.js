@@ -11,7 +11,7 @@ export default function App() {
     setLoading(true);
     setResult("");
 
-    const res = await fetch("https://student-backend.onrender.com/predict", {
+    const res = await fetch("https://student-predictor-backend-dsz3.onrender.com/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
